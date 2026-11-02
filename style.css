@@ -2,3 +2,92 @@
 
 /* V3 — identité et rubrique intégration */
 .flag{display:block;width:52px;height:35px;object-fit:cover;border:1px solid #d2ddd7;border-radius:5px;box-shadow:0 2px 8px #00000016;flex-shrink:0}.hero-flag{width:145px;max-width:80%;height:auto;border-radius:9px;box-shadow:0 10px 24px #0c3c2d2c}.civic-promo{padding-top:20px}.civic-promo-inner{background:linear-gradient(125deg,#edf8f3,#e6f0fb);border:1px solid #d7e8e4;border-radius:22px;padding:clamp(24px,5vw,48px);display:grid;grid-template-columns:1fr 180px;gap:25px;align-items:center}.civic-promo h2{margin:8px 0 12px}.civic-promo p:not(.eyebrow){max-width:680px}.civic-illustration{font-size:5.2rem;text-align:center}.civic-illustration span{font-size:3rem}.civic-lesson{background:#fff;border:1px solid var(--line);border-radius:15px;padding:24px;margin:18px 0}.civic-lesson h2{font-size:1.3rem}.civic-lesson ul{padding-left:22px}.civic-intro{background:var(--soft);padding:22px;border-radius:14px}.civic-status{font-weight:750;color:var(--green)}.civic-question{border:1px solid var(--line);padding:20px;border-radius:14px;margin:14px 0;background:#fff}.civic-question legend{font-weight:750;margin-bottom:12px}.civic-question fieldset{border:0;padding:0;margin:0}.civic-question label{display:flex;gap:10px;padding:9px 11px;margin:8px 0;border:1px solid var(--line);border-radius:9px;cursor:pointer}.civic-question input{accent-color:var(--green);margin-top:6px}.civic-question .feedback{margin-bottom:0}.civic-question .correct{border-color:#09845d;background:#eff9f4}.civic-question .incorrect{border-color:#c57b44;background:#fff7eb}.quiz-actions{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}.secondary-btn{border:1px solid var(--green);background:#fff;color:var(--green);border-radius:12px;padding:13px 19px;font-weight:750}.civic-result{font-size:1.15rem;font-weight:800;padding:15px;border-radius:12px;background:var(--soft)}@media(max-width:750px){.civic-promo-inner{grid-template-columns:1fr}.civic-illustration{font-size:3rem}.civic-illustration span{font-size:2rem}.brand{font-size:1rem}}
+
+/* Ajustement demandé : drapeau entièrement intégré au médaillon rond de l'accueil.
+   Le drapeau conserve son fichier SVG original pour l'en-tête. */
+.hero-symbol{isolation:isolate;background:#d3eae0;box-shadow:0 0 0 9px #d3eae050;}
+.hero-symbol .hero-flag{display:block;position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;object-position:center;border-radius:50%;box-shadow:none;}
+.hero-symbol .bubble{z-index:1;bottom:-5px;right:-5px;}
+@media(max-width:750px){.hero-symbol .bubble{bottom:-4px;right:-4px;}}
+
+/* Guides d’intégration : mise en page accessible et responsive */
+.life-hero{background:linear-gradient(115deg,#eaf8f1,#f8fbf4);padding:48px 0}.life-hero h1{font-size:clamp(2.1rem,4vw,3.3rem);line-height:1.15;letter-spacing:-.04em;margin:8px 0 15px}.life-hero h1 em{color:var(--green);font-style:normal}.life-hero p:not(.eyebrow){max-width:760px;color:#39534c;font-size:1.07rem}.life-listen{margin-top:12px}.life-back{display:inline-block;margin-bottom:15px;font-weight:700}.life-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}.life-card{display:flex;flex-direction:column;gap:10px;padding:25px;border:1px solid var(--line);border-radius:17px;text-decoration:none;color:var(--ink);box-shadow:0 8px 24px #0d4a3410}.life-card:hover,.life-card:focus-visible{border-color:var(--green);background:#f8fcfa}.life-emoji{font-size:2.2rem}.life-card strong{font-size:1.13rem}.life-card span:not(.life-emoji):not(.life-cta){color:var(--muted);font-size:.93rem;flex:1}.life-cta{color:var(--green);font-weight:800}.life-safety{padding-top:0}.life-layout{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(235px,.8fr);gap:22px;padding-top:40px;padding-bottom:70px;align-items:start}.life-main,.life-side{display:grid;gap:22px;min-width:0}.life-panel{padding:clamp(18px,3vw,28px);border:1px solid var(--line);border-radius:16px;background:#fff}.life-panel h2{font-size:1.35rem;margin:0 0 16px;line-height:1.3}.life-phrase{font-size:1.3rem;font-weight:750;line-height:1.5}.life-steps{padding-left:26px}.life-steps li{padding-left:5px;margin:0 0 18px}.life-steps h3{font-size:1.04rem;margin:0 0 3px}.life-steps p{margin:0;color:var(--muted)}.life-words{margin:0}.life-word{padding:12px 0;border-bottom:1px solid var(--line)}.life-word:last-child{border-bottom:0}.life-word dt{font-weight:800}.life-word dd{margin:3px 0;color:var(--muted)}.life-quiz fieldset{border:0;padding:0;margin:0 0 15px}.life-quiz legend{font-weight:750;font-size:1.06rem;margin-bottom:12px}.life-option{display:flex;gap:12px;padding:12px;border:1px solid var(--line);border-radius:10px;margin:9px 0;cursor:pointer}.life-option input{accent-color:var(--green);margin-top:5px}.life-feedback{font-weight:750}.life-correct{color:#08795e}.life-official{padding-left:19px}.life-official li{margin:11px 0}.life-warning{background:#fffaf0;border-color:#e9d8a9}.life-next{text-decoration:none;text-align:center}.life-home-promo{background:#eff8f5;border:1px solid #dce7e3;border-radius:20px;padding:clamp(22px,4vw,38px)}.life-home-promo p{max-width:740px}.life-home-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}.life-home-links a{background:#fff;padding:9px 13px;border-radius:9px;text-decoration:none;font-weight:750;border:1px solid var(--line)}.life-home-links a:hover{text-decoration:underline}@media(max-width:850px){.life-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.life-layout{grid-template-columns:1fr}}@media(max-width:550px){.life-grid{grid-template-columns:1fr}.life-hero{padding:35px 0}.life-layout{padding-top:22px}.life-home-links{flex-direction:column}}
+
+/* Module d'écoute et de répétition — version en préparation */
+.audio-phrase-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:22px 0}.audio-phrase-card{background:#fff;border:1px solid var(--line);border-radius:17px;padding:clamp(18px,3vw,26px);min-width:0}.audio-phrase-card h3{font-size:1.2rem;margin:6px 0 18px}.audio-phrase-index{color:var(--green);font-size:.77rem;font-weight:850;letter-spacing:.04em}.audio-language{font-weight:800;font-size:.86rem;color:var(--deep)}.audio-main-phrase{font-size:1.23rem;font-weight:750;line-height:1.5;margin:12px 0}.audio-actions{display:flex;flex-wrap:wrap;gap:10px}.audio-actions button{min-height:45px}.audio-shikomori{background:#f2f8f5;border:1px solid #d8e8df;border-radius:12px;margin-top:21px;padding:16px}.audio-shikomori p{margin:10px 0}.audio-pending{font-size:.86rem;color:#725626;font-weight:700}.audio-live{min-height:1.5em;color:var(--green);font-weight:650}.audio-community{padding-top:0}.audio-community .life-panel{max-width:900px}.audio-community li{margin:10px 0}@media(max-width:750px){.audio-phrase-grid{grid-template-columns:1fr}.audio-actions{flex-direction:column}.audio-actions button{width:100%}}
+
+/* Français depuis zéro — grands contrôles et lecture sur téléphone */
+.beginner-menu{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:20px}.beginner-menu-link{border:1px solid var(--line);border-radius:15px;padding:17px;text-decoration:none;color:var(--ink);display:flex;flex-direction:column;gap:9px;background:#fff}.beginner-menu-link>span{font-size:2rem}.beginner-menu-link strong{font-size:1rem}.beginner-menu-link small{color:var(--muted);line-height:1.5}.beginner-menu-link:hover{border-color:var(--green)}.beginner-section{padding-top:5px}.beginner-lesson{border:1px solid var(--line);border-radius:20px;padding:clamp(18px,4vw,30px);margin-bottom:25px;background:#fff;scroll-margin-top:24px}.beginner-heading{display:flex;align-items:start;gap:18px}.beginner-heading h2{margin:3px 0 8px}.beginner-heading p:last-child{color:var(--muted);margin:0}.beginner-emoji{font-size:2.8rem}.beginner-phrases{margin:20px 0}.beginner-phrase{display:flex;align-items:center;justify-content:space-between;gap:16px;border-top:1px solid var(--line);padding:15px 0}.beginner-text{font-size:1.25rem;font-weight:800;line-height:1.4;margin:0 0 5px}.beginner-phrase .hint{margin:0}.beginner-buttons{display:flex;gap:8px;flex-wrap:wrap;flex-shrink:0}.beginner-buttons button{min-height:44px}.beginner-quiz{background:#f1f8f4;border-radius:14px;padding:18px}.beginner-quiz h3{margin:0 0 13px}.beginner-quiz fieldset{border:0;padding:0;margin:0 0 12px}.beginner-quiz legend{font-weight:750;margin-bottom:10px}.beginner-answer{display:flex;gap:10px;background:#fff;border:1px solid var(--line);border-radius:9px;padding:11px;margin:8px 0;cursor:pointer}.beginner-answer input{accent-color:var(--green);margin-top:4px}.beginner-feedback{font-weight:700;min-height:1.3em}.beginner-status{min-height:1.5em;font-weight:750;color:var(--green)}@media(max-width:1000px){.beginner-menu{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:650px){.beginner-menu{grid-template-columns:repeat(2,minmax(0,1fr))}.beginner-phrase{align-items:stretch;flex-direction:column}.beginner-buttons button{flex:1}.beginner-heading{gap:12px}.beginner-emoji{font-size:2.1rem}}@media(max-width:390px){.beginner-menu{grid-template-columns:1fr}}
+
+/* Comprendre les courriers administratifs */
+.letters-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.letter-card{border:1px solid var(--line);border-radius:17px;padding:24px;background:#fff}.letter-title{display:flex;align-items:center;gap:12px}.letter-title span{font-size:2rem}.letter-title h3{margin:0;font-size:1.2rem}.letter-label{color:var(--muted);font-weight:750;font-size:.85rem}.letter-phrase{font-size:1.15rem;font-weight:800;line-height:1.5}.letter-listen{margin:0 0 10px}.letter-note{background:#fff9ed;padding:12px;border-radius:10px;font-size:.9rem}.letter-quiz fieldset{border:0;padding:0;margin:12px 0}.letter-quiz label{display:block;padding:10px 0}.letter-quiz input{accent-color:var(--green)}#letter-result{font-weight:800;color:var(--green)}@media(max-width:750px){.letters-grid{grid-template-columns:1fr}}
+
+/* Guide titre de séjour / ANEF — ajout de la version finale */
+.anef-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin:16px 0}.anef-choices>div,.anef-terms>div{border:1px solid var(--line);border-radius:13px;padding:16px;background:#f8fcfa}.anef-choices h3,.anef-terms h3{font-size:1.04rem;margin:0 0 7px}.anef-choices p,.anef-terms p{margin:0;color:#3d5850}.anef-terms{display:grid;gap:12px}.anef-checklist{display:grid;gap:10px;margin:15px 0}.anef-checklist label{display:flex;align-items:flex-start;gap:12px;padding:13px;border:1px solid var(--line);border-radius:11px;cursor:pointer}.anef-checklist input{accent-color:var(--green);margin-top:6px;min-width:18px;min-height:18px}.anef-progress{font-weight:750;color:var(--green)}@media(max-width:650px){.anef-choices{grid-template-columns:1fr}}:focus-visible{outline:3px solid #b07410;outline-offset:3px}
+
+/* Badge français : drapeau tricolore parfaitement rond, sans emoji ni lettres. */
+.hero-symbol .bubble{overflow:hidden;padding:0;background:#fff;border:3px solid #fff;}
+.hero-symbol .bubble img{display:block;width:100%;height:100%;object-fit:cover;border-radius:50%;}
+
+
+/* Identité Comores 2026 — vert, blanc, rouge, bleu et jaune du drapeau.
+   Les couleurs vives servent d'accents, le texte garde un contraste élevé. */
+:root{
+  --green:#087451;
+  --deep:#073e36;
+  --ink:#172b2b;
+  --muted:#4b615d;
+  --line:#d8e6df;
+  --soft:#eff8f4;
+  --comores-green:#008751;
+  --comores-yellow:#f6cb26;
+  --comores-red:#ce343b;
+  --comores-blue:#2269b3;
+}
+body{background:#fcfdfa;}
+.site-head{position:relative;background:#fff;border-bottom:1px solid #d7e6df;box-shadow:0 3px 20px #123c3210;}
+.site-head::before{content:"";display:block;height:6px;background:linear-gradient(90deg,var(--comores-yellow) 0 25%,#fff 25% 50%,var(--comores-red) 50% 75%,var(--comores-blue) 75% 100%);border-bottom:1px solid #d9e3df;}
+.brand{color:var(--deep);}
+.brand strong{color:var(--comores-green);}
+nav a{transition:color .15s ease;}
+nav a:hover,nav a:focus-visible{color:var(--comores-blue);}
+.hero{position:relative;overflow:hidden;background:linear-gradient(115deg,#e8f6ed 0%,#fbfdf5 54%,#edf4fb 100%);}
+.hero::before{content:"";position:absolute;width:390px;height:390px;border-radius:50%;right:-150px;top:-205px;background:radial-gradient(circle,#f6cb2630,transparent 70%);pointer-events:none;}
+.hero::after{content:"";position:absolute;inset:auto 0 0;height:5px;background:linear-gradient(90deg,var(--comores-yellow) 0 25%,#fff 25% 50%,var(--comores-red) 50% 75%,var(--comores-blue) 75% 100%);}
+.hero-inner{position:relative;z-index:1;}
+.hero h1 em{color:#087451;}
+.hero .eyebrow{color:#086246;}
+.hero-symbol{box-shadow:0 0 0 10px #ffffffb8,0 14px 38px #084f3e20;}
+.hero-symbol .bubble{box-shadow:0 6px 22px #163b5038;}
+.primary-link,.primary-btn{background:#087451;box-shadow:0 5px 14px #08745125;}
+.primary-link:hover,.primary-btn:hover{background:#07563e;}
+.intro article{border-top:4px solid var(--comores-green);}
+.intro article:nth-child(2){border-top-color:var(--comores-yellow);}
+.intro article:nth-child(3){border-top-color:var(--comores-blue);}
+.step{color:#087451;}
+.intro article:nth-child(2) .step{color:#8b6200;}
+.intro article:nth-child(3) .step{color:#1b5c9f;}
+.lesson-card{border-top:3px solid #008751;transition:transform .18s ease,box-shadow .18s ease;}
+.lesson-card:nth-child(4n+2){border-top-color:var(--comores-yellow);}
+.lesson-card:nth-child(4n+3){border-top-color:var(--comores-red);}
+.lesson-card:nth-child(4n+4){border-top-color:var(--comores-blue);}
+.lesson-card:hover{transform:translateY(-2px);box-shadow:0 12px 26px #0d4a3420;}
+.life-home-promo{background:linear-gradient(120deg,#eff8f3 0%,#f7faf7 68%,#eef4fb 100%);border-left:5px solid var(--comores-green);}
+#francais-debutant .life-home-promo{border-left-color:var(--comores-yellow);}
+#audio .life-home-promo{border-left-color:var(--comores-blue);}
+#vie-quotidienne .life-home-promo{border-left-color:var(--comores-red);}
+#titre-sejour .life-home-promo{border-left-color:var(--comores-green);}
+#courriers .life-home-promo{border-left-color:var(--comores-blue);}
+.civic-promo-inner{background:linear-gradient(115deg,#f0f8f4,#edf4fb);border-top:4px solid var(--comores-blue);}
+.life-card{border-top:4px solid var(--comores-green);}
+.life-card:nth-child(4n+2){border-top-color:var(--comores-yellow);}
+.life-card:nth-child(4n+3){border-top-color:var(--comores-red);}
+.life-card:nth-child(4n+4){border-top-color:var(--comores-blue);}
+.life-hero{background:linear-gradient(115deg,#eaf7ef,#fbfcf6 55%,#eef5fb);border-bottom:4px solid #dfeee6;}
+.life-panel{box-shadow:0 6px 20px #12452d0a;}
+.resources{background:linear-gradient(120deg,#e9f5ef,#f6f9f3);}
+.resource-grid a{border-top:4px solid var(--comores-green);}
+.resource-grid a:nth-child(2){border-top-color:var(--comores-yellow);}
+.resource-grid a:nth-child(3){border-top-color:var(--comores-blue);}
+footer{background:#073e36;border-top:6px solid transparent;border-image:linear-gradient(90deg,var(--comores-yellow) 0 25%,#fff 25% 50%,var(--comores-red) 50% 75%,var(--comores-blue) 75% 100%) 1;}
+@media (prefers-reduced-motion:reduce){.lesson-card,nav a{transition:none}.lesson-card:hover{transform:none}}

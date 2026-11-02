@@ -1,0 +1,29 @@
+COMORES ASSISTANCE FRANCE — VERSION CONSOLIDÉE DU 02/11/2026
+
+SITE STATIQUE / GITHUB PAGES — 14 pages HTML, 7 fichiers JavaScript, 1 CSS, 1 drapeau SVG.
+
+POINTS À COMPLÉTER AVANT PUBLICATION PUBLIQUE :
+1. Adresse de contact ajoutée dans a-propos.html, confidentialite.html et sur l’accueil : boinaidifaouilou91@gmail.com.
+2. Vérifier les mentions légales nécessaires selon le statut réel du responsable du site.
+3. Vérifier les textes administratifs et les règles locales régulièrement.
+4. Les traductions et audios shikomori sont en attente de validation ; ne pas les présenter comme vérifiés.
+5. Tester visuellement les pages sur téléphone et ordinateur et essayer les quiz et boutons audio sur un vrai navigateur.
+
+TESTS EFFECTUÉS :
+- 179 références locales vérifiées : aucun fichier manquant.
+- Syntaxe de 7 fichiers JavaScript vérifiée avec node --check.
+- 14 pages HTML contiennent un titre et une zone principale.
+- Test automatisé du navigateur NON RÉALISABLE dans l'environnement d'exécution : navigation Chromium bloquée.
+- Aucune publication GitHub n'a été effectuée automatiquement.
+
+PUBLICATION SUR GITHUB PAGES :
+1. Extraire le ZIP sur l'ordinateur.
+2. Dans le dépôt https://github.com/comores-assistance-france/-comores-assistance-france,
+   aller dans Code > Add file > Upload files (ou « Ajouter un fichier » > « Téléverser des fichiers »).
+3. Téléverser les fichiers EXTRAITS du dossier, notamment index.html à la racine.
+   Ne pas téléverser le ZIP lui-même.
+4. Valider Commit changes. Conserver GitHub Pages sur la branche main / root.
+5. Attendre le déploiement et actualiser :
+   https://comores-assistance-france.github.io/-comores-assistance-france/
+
+Important : projet d'entraide indépendant, sans collecte de pièces d'identité ou de séjour.
