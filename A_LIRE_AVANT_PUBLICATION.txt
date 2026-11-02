@@ -1,4 +1,4 @@
-COMORES ASSISTANCE FRANCE — VERSION 1 (PROTOTYPE)
+COMORES ASSISTANCE FRANCE — VERSION 2 — MISE À JOUR GITHUB PAGES
 =================================================
 
 Le ZIP contient un site statique autonome : index.html, style.css, app.js,
@@ -13,7 +13,7 @@ CONTENU :
 - Liens vers les services administratifs officiels.
 - Aucun formulaire de collecte de données ni publicités ajoutées.
 
-AVANT LA MISE EN LIGNE PUBLIQUE :
+SITE DÉJÀ MIS EN LIGNE — VÉRIFICATIONS ET AMÉLIORATIONS :
 1. Faire relire la traduction de la première leçon par des locuteurs natifs.
 2. Compléter les mentions légales et le contact sur a-propos.html,
    ainsi que la page de confidentialité si nécessaire.
@@ -22,11 +22,16 @@ AVANT LA MISE EN LIGNE PUBLIQUE :
 4. Tester le site sur téléphone et ordinateur, et la lecture vocale.
 5. Préparer de vrais enregistrements shingazidja si possible.
 
-DEPLOIEMENT NETLIFY :
-- Créer un NOUVEAU site dans le MÊME compte Netlify que Mon Assistant IT.
-- Ne PAS remplacer le site Mon Assistant IT.
-- Déployer le dossier ou le ZIP selon la méthode proposée par Netlify.
-- Les fichiers index.html et autres doivent être à la RACINE du déploiement.
-- Chaque déploiement peut utiliser des crédits du forfait, même avec un ZIP.
+MISE À JOUR GITHUB PAGES :
+- Décompresser le ZIP sur ordinateur.
+- Dans le dépôt GitHub existant, utiliser Add file > Upload files.
+- Sélectionner les fichiers contenus dans le dossier décompressé (PAS le ZIP).
+- Conserver les fichiers à la racine et valider le commit.
+- GitHub Pages republie ensuite automatiquement le site.
 
-Aucun déploiement n'a été effectué par ChatGPT.
+La publication et les mises à jour sur GitHub sont effectuées par le propriétaire du compte, pas par ChatGPT.
+
+MISE À JOUR V2 : pied de page © 2026 Faouilou Ali sur les trois pages,
+terminologie générale shikomori avec précision sur la variante Grande Comore,
+hébergeur GitHub Pages dans les informations légales.
+Les coordonnées du responsable et le contact restent à compléter.
