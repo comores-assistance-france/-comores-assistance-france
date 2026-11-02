@@ -1,37 +1,34 @@
-COMORES ASSISTANCE FRANCE — VERSION 2 — MISE À JOUR GITHUB PAGES
-=================================================
+COMORES ASSISTANCE FRANCE — VERSION 3 — INTÉGRATION DES COMORIENS EN FRANCE
 
-Le ZIP contient un site statique autonome : index.html, style.css, app.js,
-a-propos.html, confidentialite.html.
+Cette version complète remplace la précédente. Conserver les fichiers à la racine du dépôt GitHub.
 
-CONTENU :
-- 10 leçons françaises avec explications faciles et quiz interactifs.
-- 1 traduction orale en shingazidja proposée par le porteur du projet,
-  clairement signalée comme NON VALIDÉE.
-- 9 traductions shingazidja en attente, aucun audio shingazidja fictif.
-- Lecture vocale automatique du français (fonction navigateur).
-- Liens vers les services administratifs officiels.
-- Aucun formulaire de collecte de données ni publicités ajoutées.
+NOUVEAUTÉS
+- Logo KM remplacé par un véritable drapeau comorien vectoriel : drapeau-comores.svg.
+- Mission clarifiée : favoriser l'intégration des Comoriens en France.
+- Nouvelle page examen-civique.html : 4 mini-cours en français facile et 12 questions pédagogiques originales.
+- Nouveau fichier civique.js : quiz interactif, correction expliquée, score et remise à zéro.
+- Liens vers l'examen civique depuis l'accueil et la navigation.
+- Pied de page : © 2026 Faouilou Ali — Tous droits réservés.
+- Site toujours statique, sans formulaire ni base de données, compatible GitHub Pages.
 
-SITE DÉJÀ MIS EN LIGNE — VÉRIFICATIONS ET AMÉLIORATIONS :
-1. Faire relire la traduction de la première leçon par des locuteurs natifs.
-2. Compléter les mentions légales et le contact sur a-propos.html,
-   ainsi que la page de confidentialité si nécessaire.
-3. Vérifier que les liens officiels ouvrent les bonnes pages et que
-   les informations correspondent à la réglementation actuelle.
-4. Tester le site sur téléphone et ordinateur, et la lecture vocale.
-5. Préparer de vrais enregistrements shingazidja si possible.
+IMPORTANT
+- Les 12 questions du quiz ne sont PAS des questions officielles de l'examen civique.
+- L'obligation de passer l'examen dépend du titre, de la situation et des exceptions applicables.
+- Les contenus doivent être comparés régulièrement aux informations officielles.
+- Les traductions en shikomori et les audios ne sont PAS encore vérifiés ni disponibles.
+- La première traduction proposée en shingazidja reste signalée comme provisoire.
+- Compléter les informations légales et l'adresse de contact avant une diffusion plus large.
 
-MISE À JOUR GITHUB PAGES :
-- Décompresser le ZIP sur ordinateur.
-- Dans le dépôt GitHub existant, utiliser Add file > Upload files.
-- Sélectionner les fichiers contenus dans le dossier décompressé (PAS le ZIP).
-- Conserver les fichiers à la racine et valider le commit.
-- GitHub Pages republie ensuite automatiquement le site.
+MISE À JOUR SUR GITHUB
+1. Décompresser l'archive sur votre ordinateur.
+2. Ouvrir le dépôt GitHub du site, onglet Code > Ajouter un fichier > Téléverser des fichiers.
+3. Sélectionner TOUS les fichiers extraits (pas le ZIP et pas le dossier parent).
+4. Accepter le remplacement des fichiers existants et valider Commit changes.
+5. Patienter pendant la republication GitHub Pages et actualiser le site (Ctrl + F5).
 
-La publication et les mises à jour sur GitHub sont effectuées par le propriétaire du compte, pas par ChatGPT.
+Le dépôt actuel visible dans la conversation est :
+https://github.com/comores-assistance-france/-comores-assistance-france
+Adresse du site :
+https://comores-assistance-france.github.io/-comores-assistance-france/
 
-MISE À JOUR V2 : pied de page © 2026 Faouilou Ali sur les trois pages,
-terminologie générale shikomori avec précision sur la variante Grande Comore,
-hébergeur GitHub Pages dans les informations légales.
-Les coordonnées du responsable et le contact restent à compléter.
+L'archive contient la version complète : aucune suppression du dépôt ni création d'un nouveau site n'est nécessaire.

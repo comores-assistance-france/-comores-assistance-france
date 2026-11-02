@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-label="Drapeau des Comores">
+<rect width="300" height="50" fill="#f9d616"/>
+<rect y="50" width="300" height="50" fill="#fff"/>
+<rect y="100" width="300" height="50" fill="#ce1126"/>
+<rect y="150" width="300" height="50" fill="#3a75c4"/>
+<path d="M0 0 151 100 0 200Z" fill="#239e46"/>
+<defs><clipPath id="triangle"><path d="M0 0 151 100 0 200Z"/></clipPath></defs>
+<g clip-path="url(#triangle)"><circle cx="51" cy="100" r="42" fill="#fff"/><circle cx="67" cy="100" r="42" fill="#239e46"/></g>
+<g fill="#fff">
+<path d="M0-9 2.1-2.8 8.6-2.8 3.3 1.1 5.4 7.3 0 3.5-5.4 7.3-3.3 1.1-8.6-2.8-2.1-2.8Z" transform="translate(83 72) scale(.7)"/>
+<path d="M0-9 2.1-2.8 8.6-2.8 3.3 1.1 5.4 7.3 0 3.5-5.4 7.3-3.3 1.1-8.6-2.8-2.1-2.8Z" transform="translate(83 91) scale(.7)"/>
+<path d="M0-9 2.1-2.8 8.6-2.8 3.3 1.1 5.4 7.3 0 3.5-5.4 7.3-3.3 1.1-8.6-2.8-2.1-2.8Z" transform="translate(83 110) scale(.7)"/>
+<path d="M0-9 2.1-2.8 8.6-2.8 3.3 1.1 5.4 7.3 0 3.5-5.4 7.3-3.3 1.1-8.6-2.8-2.1-2.8Z" transform="translate(83 129) scale(.7)"/>
+</g></svg>

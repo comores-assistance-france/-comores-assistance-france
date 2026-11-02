@@ -1,0 +1,23 @@
+'use strict';
+// Questions pédagogiques originales, pas des questions officielles d'examen.
+const civicQuestions = [
+ {q:'Quelle est la devise de la République française ?',o:['Travail, Famille, Patrie','Liberté, Égalité, Fraternité','Force, Ordre, Progrès'],a:1,e:'La devise de la République est « Liberté, Égalité, Fraternité ».'},
+ {q:'Les femmes et les hommes ont-ils les mêmes droits en France ?',o:['Oui','Non','Seulement dans certaines villes'],a:0,e:'L’égalité entre les femmes et les hommes est un principe fondamental.'},
+ {q:'Qu’est-ce que la laïcité protège notamment ?',o:['L’interdiction de toute croyance','La liberté de conscience','L’obligation de pratiquer une religion'],a:1,e:'La laïcité protège notamment la liberté de conscience et la neutralité de l’État.'},
+ {q:'Qui vote les lois en France ?',o:['Le Parlement','La mairie seule','La police'],a:0,e:'Le Parlement vote les lois. Il comprend l’Assemblée nationale et le Sénat.'},
+ {q:'Quelles sont les deux chambres du Parlement ?',o:['La mairie et la préfecture','L’Assemblée nationale et le Sénat','L’école et l’hôpital'],a:1,e:'Le Parlement comprend l’Assemblée nationale et le Sénat.'},
+ {q:'Qui est responsable de l’administration de la commune ?',o:['Le maire','Le directeur d’école','Le facteur'],a:0,e:'Le maire dirige l’administration communale.'},
+ {q:'En France, doit-on respecter la loi ?',o:['Seulement si l’on est français','Oui, chacun doit respecter la loi','Seulement au travail'],a:1,e:'La loi s’applique aux personnes présentes sur le territoire, selon ses dispositions.'},
+ {q:'Un enfant a-t-il droit à l’instruction ?',o:['Oui','Non','Uniquement si ses parents le souhaitent'],a:0,e:'Le droit à l’instruction est reconnu en France.'},
+ {q:'Peut-on discriminer quelqu’un en raison de son origine ?',o:['Oui, toujours','Non','Oui, à l’école'],a:1,e:'La discrimination fondée sur l’origine est interdite par la loi.'},
+ {q:'Où trouver des informations administratives fiables ?',o:['Sur un message anonyme','Sur un site officiel comme Service-Public.fr','Sur une publicité non vérifiée'],a:1,e:'Les sites officiels permettent de vérifier les démarches et leurs conditions.'},
+ {q:'Quel document est généralement nécessaire pour prouver son identité ?',o:['Une pièce d’identité reconnue','Une carte de fidélité','Un ticket de caisse'],a:0,e:'Une pièce d’identité reconnue permet d’établir son identité selon la démarche.'},
+ {q:'Faut-il donner son mot de passe ANEF à un inconnu ?',o:['Oui, pour gagner du temps','Non, il doit rester confidentiel','Oui, sur les réseaux sociaux'],a:1,e:'Ne partagez pas vos identifiants avec des inconnus : cela peut exposer vos données.'}
+];
+const root=document.getElementById('civic-questions');
+const result=document.getElementById('civic-result');
+function render(){root.replaceChildren();result.textContent='';civicQuestions.forEach((item,i)=>{const article=document.createElement('article');article.className='civic-question';const fieldset=document.createElement('fieldset');const legend=document.createElement('legend');legend.textContent=(i+1)+'. '+item.q;fieldset.append(legend);item.o.forEach((answer,j)=>{const label=document.createElement('label');const radio=document.createElement('input');radio.type='radio';radio.name='civic-'+i;radio.value=String(j);label.append(radio,document.createTextNode(answer));fieldset.append(label)});const feedback=document.createElement('p');feedback.className='feedback';feedback.id='civic-feedback-'+i;article.append(fieldset,feedback);root.append(article)})}
+function check(){let score=0,answered=0;civicQuestions.forEach((item,i)=>{const article=root.children[i];const checked=article.querySelector('input:checked');const feedback=document.getElementById('civic-feedback-'+i);article.classList.remove('correct','incorrect');if(checked){answered++;if(Number(checked.value)===item.a){score++;article.classList.add('correct');feedback.textContent='✓ Bonne réponse. '+item.e}else{article.classList.add('incorrect');feedback.textContent='À revoir. Bonne réponse : '+item.o[item.a]+'. '+item.e}}else{article.classList.add('incorrect');feedback.textContent='Pas de réponse. Bonne réponse : '+item.o[item.a]+'. '+item.e}});result.className='civic-result';result.textContent='Résultat : '+score+' / '+civicQuestions.length+' bonnes réponses ('+answered+' questions répondues). Ceci est un entraînement non officiel.';result.scrollIntoView({behavior:'smooth',block:'nearest'})}
+document.getElementById('civic-check').addEventListener('click',check);
+document.getElementById('civic-reset').addEventListener('click',()=>{render();document.getElementById('quiz').scrollIntoView({behavior:'smooth'})});
+render();
