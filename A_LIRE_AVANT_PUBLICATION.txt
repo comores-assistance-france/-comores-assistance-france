@@ -1,0 +1,32 @@
+COMORES ASSISTANCE FRANCE — VERSION 1 (PROTOTYPE)
+=================================================
+
+Le ZIP contient un site statique autonome : index.html, style.css, app.js,
+a-propos.html, confidentialite.html.
+
+CONTENU :
+- 10 leçons françaises avec explications faciles et quiz interactifs.
+- 1 traduction orale en shingazidja proposée par le porteur du projet,
+  clairement signalée comme NON VALIDÉE.
+- 9 traductions shingazidja en attente, aucun audio shingazidja fictif.
+- Lecture vocale automatique du français (fonction navigateur).
+- Liens vers les services administratifs officiels.
+- Aucun formulaire de collecte de données ni publicités ajoutées.
+
+AVANT LA MISE EN LIGNE PUBLIQUE :
+1. Faire relire la traduction de la première leçon par des locuteurs natifs.
+2. Compléter les mentions légales et le contact sur a-propos.html,
+   ainsi que la page de confidentialité si nécessaire.
+3. Vérifier que les liens officiels ouvrent les bonnes pages et que
+   les informations correspondent à la réglementation actuelle.
+4. Tester le site sur téléphone et ordinateur, et la lecture vocale.
+5. Préparer de vrais enregistrements shingazidja si possible.
+
+DEPLOIEMENT NETLIFY :
+- Créer un NOUVEAU site dans le MÊME compte Netlify que Mon Assistant IT.
+- Ne PAS remplacer le site Mon Assistant IT.
+- Déployer le dossier ou le ZIP selon la méthode proposée par Netlify.
+- Les fichiers index.html et autres doivent être à la RACINE du déploiement.
+- Chaque déploiement peut utiliser des crédits du forfait, même avec un ZIP.
+
+Aucun déploiement n'a été effectué par ChatGPT.
