@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://comores-assistance-france.github.io/-comores-assistance-france/sitemap.xml

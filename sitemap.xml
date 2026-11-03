@@ -1,2 +1,41 @@
-<?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/a-propos.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/ame-soins.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/atelier-shikomori.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/autres-demarches.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/caf.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/confidentialite.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/contact.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/courriers-administratifs.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/des-comores-vers-la-france.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/ecole.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/ecouter.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/emploi.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/etudes-comores-france.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/examen-civique.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/francais-debutant.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/francais-pratique.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/index.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/lecons-sejour.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/logement.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/mariage-comores-france.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/mentions-legales.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/mes-etapes.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/niveaux-francais.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/parcours-demarches.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/participer.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/questions-frequentes.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/recherche.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/revision-civique.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/sante.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/services-ateliers.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/soins-depuis-comores.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/titre-sejour.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/travailler-depuis-comores.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/vie-quotidienne.html</loc></url><url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/visite-familiale.html</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/a-propos.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/ame-soins.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/atelier-shikomori.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/autres-demarches.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/caf.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/confidentialite.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/contact.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/courriers-administratifs.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/des-comores-vers-la-france.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/ecole.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/ecouter.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/emploi.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/entrainement-francais.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/etudes-comores-france.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/examen-civique.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/favoris.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/francais-debutant.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/francais-pratique.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/lecons-sejour.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/logement.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/mariage-comores-france.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/mentions-legales.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/mes-etapes.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/niveaux-francais.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/parcours-demarches.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/participer.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/premiers-pas-france.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/questions-frequentes.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/recherche.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/revision-civique.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/sante.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/services-ateliers.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/soins-depuis-comores.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/titre-sejour.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/travailler-depuis-comores.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/vie-quotidienne.html</loc></url>
+  <url><loc>https://comores-assistance-france.github.io/-comores-assistance-france/visite-familiale.html</loc></url>
+</urlset>

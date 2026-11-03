@@ -44,6 +44,7 @@ function checkRevision(){
     card.querySelectorAll('input').forEach(input=>input.disabled=true);
   });
   scoreEl.textContent='Résultat : '+score+' / '+current.length+'. Entraînement pédagogique non officiel.';
+  if(window.CAFSuiviCivique){window.CAFSuiviCivique.record('theme',revisionThemes[category.value].title,score,current.length,missed);window.dispatchEvent(new Event('caf-civique-recorded'));}
   validate.disabled=true;errorsButton.hidden=missed.length===0;errorsButton.textContent='Revoir mes '+missed.length+' erreur(s)';scoreEl.scrollIntoView({behavior:'smooth',block:'nearest'});
 }
 function resetRevision(){missed=[];errorsButton.hidden=true;category.disabled=false;launch.hidden=false;validate.hidden=true;restart.hidden=true;panel.hidden=true;panel.replaceChildren();scoreEl.textContent='';}
